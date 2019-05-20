@@ -33,7 +33,7 @@ program
         //github项目地址，如果是gitlab需要在前面加上gitlab:
         //要下载到的本地文件夹
         //回调函数
-        download("melody/react-melody-staging", `./${name}`, (err) => {
+        download("melodyWxy/react-melody-staging", `./${name}`, (err) => {
             if (err) {
                 console.log(chalk.red(err))
                 spinner.stop()
