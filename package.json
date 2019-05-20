@@ -1,6 +1,6 @@
 {
   "name": "react-melody-staging",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "一个轻量级react纯函数脚手架",
   "main": "index.js",
   "scripts": {
