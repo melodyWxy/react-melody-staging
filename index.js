@@ -23,7 +23,7 @@ program
   .alias('i')
   .action(() => {
       co(function * () {
-        let projectName = yield prompt(chalk.blue('请输入项目名称: (react-moledy-project) '));
+        let projectName = yield prompt(chalk.blue('请输入项目名称: (react-melody-project)'));
         let projectVersion = yield prompt(chalk.blue('请输入项目版本: 1.0.0'));
         let name = projectName || "react-melody-project";
         let version = projectVersion || "1.0.0";
