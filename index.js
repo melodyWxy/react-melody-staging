@@ -23,9 +23,9 @@ program
   .alias('i')
   .action(() => {
       co(function * () {
-        let projectName = yield prompt(chalk.blue('请输入项目名称: (react-moledy-peoject) '));
+        let projectName = yield prompt(chalk.blue('请输入项目名称: (react-moledy-project) '));
         let projectVersion = yield prompt(chalk.blue('请输入项目版本: 1.0.0'));
-        let name = projectName || "react-melody-staging";
+        let name = projectName || "react-melody-project";
         let version = projectVersion || "1.0.0";
         console.log(chalk.red("项目名称: ", name, "项目版本: ", version));
         const spinner = ora('正在下载，请等待...');
@@ -33,7 +33,7 @@ program
         //github项目地址，如果是gitlab需要在前面加上gitlab:
         //要下载到的本地文件夹
         //回调函数
-        download("melodyWxy/react-melody-staging", `./${name}`, (err) => {
+        download("melodyWxy/react-lightweight-template", `./${name}`, (err) => {
             if (err) {
                 console.log(chalk.red(err))
                 spinner.stop()
