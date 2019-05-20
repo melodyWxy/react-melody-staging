@@ -40,13 +40,13 @@ const question = [
 ]
 
 module.exports = prompt(question).then(({ name, project, place }) => {
-  const gitPlace = tplList[name]['owner/name']
-  const gitBranch = tplList[name]['branch']
+  // const gitPlace = tplList[name]['owner/name']
+  // const gitBranch = tplList[name]['branch']
   const spinner = ora('Downloading template...')
 
   spinner.start()
 
-  download(`${gitPlace}#${gitBranch}`, `${place}/${project}`, (err) => {
+  download(`melodyWxy/react-lightweight-template`, `${place}/${project}`, (err) => {
     if (err) {
       console.log(chalk.red(err))
       process.exit()
