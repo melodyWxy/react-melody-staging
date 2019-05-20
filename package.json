@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/melodyWxy/react-lightweight-template.git"
+    "url": "git+https://github.com/melodyWxy/react-melody-stagingreact-melody-staging.git"
   }, 
   "keywords": [
     "react",
     "cli",
     "melodyWxy"
   ],
-  "homepage": "https://github.com/melodyWxy/react-lightweight-template#readme",
+  "homepage": "https://github.com/melodyWxy/react-melody-staging#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "cli-table": "^0.3.1",
