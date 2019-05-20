@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+function runCli(){
 //node.js命令行界面的完整解决方案，处理用户输入；
 //用户在命令行，输入node bin\mini --help，就会调用通过command或者on，注册的--help的回调函数
 const program = require('commander');
@@ -145,3 +146,5 @@ program
   })
 
 program.parse(process.argv)
+}
+runCli();
