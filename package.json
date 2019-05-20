@@ -1,30 +1,22 @@
 {
-  "name": "react-melody-staging",
+  "name": "comander-test",
   "version": "1.0.0",
-  "description": "a react cli with only function(一个纯函数式的react脚手架)",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "melody": "./index.js"
+  },
   "author": "wxyDesign",
   "license": "ISC",
-  "bin": {
-    "melody": "bin/melody"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/melodyWxy/react-melody-stagingreact-melody-staging.git"
-  }, 
-  "keywords": [
-    "react",
-    "cli",
-    "melodyWxy"
-  ],
-  "homepage": "https://github.com/melodyWxy/react-melody-staging#readme",
   "dependencies": {
-    "chalk": "^1.1.3",
-    "cli-table": "^0.3.1",
-    "commander": "^2.9.0",
-    "download-git-repo": "^1.0.0",
-    "handlebars": "^4.0.8",
-    "inquirer": "^3.0.6",
-    "metalsmith": "^2.3.0",
-    "ora": "^1.2.0"
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.20.0",
+    "download-git-repo": "^1.1.0",
+    "ora": "^3.4.0"
   }
 }
