@@ -1,7 +1,7 @@
 {
-  "name": "comander-test",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-moledy-cli",
+  "version": "1.0.2",
+  "description": "一个轻量级react纯函数脚手架",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
